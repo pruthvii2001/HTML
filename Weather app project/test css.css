@@ -1,0 +1,74 @@
+/* Add 3D viewer styles */
+#3d-viewer {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
+#hero {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+#productgrid {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+#productcard {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+#viewer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+#abt {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#about {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+#contact {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#3d-viewer {
+    width: 400%;
+    height: 400px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+}
